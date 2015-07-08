@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+  <name>cloud-framework-security</name>
+  <comment>Apache CloudStack is an IaaS (“Infrastructure as a Service”) cloud orchestration platform. NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+  <projects>
+    <project>cloud-utils</project>
+    <project>cloud-framework-managed-context</project>
+    <project>cloud-api</project>
+    <project>cloud-framework-config</project>
+    <project>cloud-framework-db</project>
+    <project>cloud-framework-ipc</project>
+  </projects>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+  </natures>
+</projectDescription>

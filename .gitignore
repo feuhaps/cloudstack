@@ -63,9 +63,7 @@ tools/cli/build/
 target-eclipse
 awsapi/modules/*
 !.gitignore
-.classpath
-.settings.xml
-.settings/
+#.classpath
 db.properties.override
 replace.properties.override
 awsapi/overlays/
@@ -75,7 +73,7 @@ docs/tmp
 docs/publish
 docs/runbook/tmp
 docs/runbook/publish
-.project
+#.project
 Gemfile.lock
 debian/tmp
 debian/files
