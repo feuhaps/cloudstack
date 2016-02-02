@@ -6,7 +6,6 @@
   <classpathentry kind="src" path="target/generated-sources/xjc2"/>
   <classpathentry kind="src" path="target/generated-sources/xjc3"/>
   <classpathentry kind="src" path="resources" excluding="**/*.java"/>
-  <classpathentry kind="src" path="target/maven-shared-archive-resources" excluding="**/*.java"/>
   <classpathentry kind="output" path="target/classes"/>
   <classpathentry kind="var" path="M2_REPO/javax/inject/javax.inject/1/javax.inject-1.jar" sourcepath="M2_REPO/javax/inject/javax.inject/1/javax.inject-1-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/javax/ejb/ejb-api/3.0/ejb-api-3.0.jar"/>
