@@ -216,7 +216,7 @@ public class ServiceOfferingVO extends DiskOfferingVO implements ServiceOffering
     }
 
     @Override
-    @Transient
+//    @Transient
     public String[] getTagsArray() {
         String tags = getTags();
         if (tags == null || tags.length() == 0) {

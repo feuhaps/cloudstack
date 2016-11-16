@@ -386,7 +386,7 @@ public class DiskOfferingVO implements DiskOffering {
     }
 
     @Override
-    @Transient
+//    @Transient
     public String[] getTagsArray() {
         String tags = getTags();
         if (tags == null || tags.isEmpty()) {
@@ -396,7 +396,7 @@ public class DiskOfferingVO implements DiskOffering {
         return tags.split(",");
     }
 
-    @Transient
+//    @Transient
     public boolean containsTag(String... tags) {
         if (this.tags == null) {
             return false;
@@ -411,7 +411,7 @@ public class DiskOfferingVO implements DiskOffering {
         return true;
     }
 
-    @Transient
+//    @Transient
     public void setTagsArray(List<String> newTags) {
         if (newTags.isEmpty()) {
             setTags(null);
